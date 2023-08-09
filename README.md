@@ -2,11 +2,12 @@
 ### initialise a git
 - ```git init```
 - ```git branch -M <default_branch>```, this will make 'main' as default branch
+- ```git commit -m 'msg'```
+- ```git remote add origin 'link'```
+- ```git push -u origin <branch_name>```
 
 
-
-### ```git branch -M <branch_name>``` can also be used to switch branches
-### 
+#### ```git branch -M <branch_name>``` can also be used to switch branches
 
 ### ```git clone 'link'```
 - create a folder where we want to place this repo in
