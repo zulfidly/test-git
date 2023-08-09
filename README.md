@@ -12,10 +12,16 @@
 - do this before making any edits, git will remember what edits made in which branch and link them together
 - ```git checkout <branch_name>```, preferably without any pending commits
 
-### Delete a branch locally
-- to check: ```git branch -a```
-- 
+### Delete a branch
+- note: local branch and remote branch may not be the same
+- checkout to default branch first: ```git checkout main```
+- check local git branches : ```git branch -a```
+- delete a local branch: ```git branch --delete <branch_name>```
+- delete a remote branch: ```git push origin --delete <branch_name>```
 
+### Synchronising branch list 
+- ```git fetch -p```
+- this will update local following remote branches
 
 ### Clone a repo
 - create a folder where we want to place this repo in
