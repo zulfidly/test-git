@@ -1,5 +1,5 @@
 ### Switching branch properly
-- ```git checkout <branch_name>```
+- ```git checkout <branch_name>```, preferably without any commits pending
 
 ### initialise a git
 - ```git init```
