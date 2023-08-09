@@ -1,12 +1,11 @@
-# commit & push : branch3
 
 ### initialise a git
 - ```git init```
-- ```git branch -M main```, this will make 'main' as default branch
+- ```git branch -M <default_branch>```, this will make 'main' as default branch
 
 
 
-### ```git branch -M branch``` can also be used to switch branches
+### ```git branch -M <branch_name>``` can also be used to switch branches
 ### 
 
 ### ```git clone 'link'```
