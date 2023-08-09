@@ -1,4 +1,5 @@
-# commit & push : branch3
+### Switching branch properly
+- ```git checkout <branch_name>```
 
 ### initialise a git
 - ```git init```
