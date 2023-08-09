@@ -1,6 +1,8 @@
+# commit & push : branch3
+
 ### initialise a git
 - ```git init```
-- ```
+
 
 ### open Terminal within active folder in VS Code
 - create the folder
