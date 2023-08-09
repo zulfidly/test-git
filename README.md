@@ -9,6 +9,7 @@
 - ```git branch -M <branch_name>```
 
 ### Switching branch properly
+- do this before making any edits, git will remember what edits made in which branch and link them together
 - ```git checkout <branch_name>```, preferably without any pending commits
 
 ### Clone a repo
