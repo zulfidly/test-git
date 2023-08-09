@@ -12,6 +12,11 @@
 - do this before making any edits, git will remember what edits made in which branch and link them together
 - ```git checkout <branch_name>```, preferably without any pending commits
 
+### Delete a branch locally
+- to check: ```git branch -a```
+- 
+
+
 ### Clone a repo
 - create a folder where we want to place this repo in
 - ```git clone 'link'``` includes the remote link automatically, so it's more straight forward 
