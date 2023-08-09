@@ -14,7 +14,7 @@
 
 ### note:
 - to create an update, 
-- any edits made in a branch, can only be pushed into the active branch where the work is being done
+- any edits made in a branch, can only be pushed into the active branch which the work is being done
 - every additional branch will create a pull request on GitHub as "Compare & pull request", or
 -- or, we can see the "Open pull request" button
 - click "Open pull request"
