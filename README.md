@@ -27,5 +27,10 @@ git remote add origin 'link'
 git push -u origin main
 
 ### note:
+- to create an update, 
 - any edits made in a branch, can only be pushed into the active branch where the work is being done
 - every additional branch will create a pull request on GitHub as "Compare & pull request"
+- create pull request
+- "merge pull request" --> "Confirm merge"
+- message: "Pull request successfully merged and closed". At this point, the "Delete branch" is visible
+- branch "main" is now updated
