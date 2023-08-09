@@ -10,7 +10,8 @@ git init
 git remote add origin https://github.com/zulfidly/airbnb-clone.git
 git pull origin main
 
-
+### ```git branch -M branch``` can also be used to switch branches
+### 
 
 ### ```git clone 'link'```
 - create a folder where we want to place this repo in
@@ -24,4 +25,5 @@ git commit -m "description"
 git remote add origin 'link'
 git push -u origin main
 
-# lalalala
+### note:
+- any edits made in a branch, can only be pushed into the active branch where the work is being done
