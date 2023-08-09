@@ -2,6 +2,7 @@
 
 ### initialise a git
 - ```git init```
+- ```git branch -M main```, this will make 'main' as default branch
 
 
 ### open Terminal within active folder in VS Code
@@ -27,3 +28,4 @@ git push -u origin main
 
 ### note:
 - any edits made in a branch, can only be pushed into the active branch where the work is being done
+- every additional branch will create a pull request on GitHub as "Compare & pull request"
