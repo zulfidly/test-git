@@ -1,8 +1,8 @@
-## This example assumes ```<default_branch>``` as ```main```
+## This example assumes ```<default_branch>``` as ```main```, by default it is ```master```
 
 ### Initialising git
 - ```git init```
-- ```git branch -M <default_branch>```, this will make 'main' as default branch
+- ```git branch -M <default_branch>```; name the default branch
 - ```git remote add origin 'github_link'```
 
 ### Commit & push to a git
