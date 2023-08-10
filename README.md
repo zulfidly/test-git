@@ -1,14 +1,16 @@
+## This example assumes ```<default_branch>``` as ```main```
+
 ### Initialising git
 - ```git init```
-- ```git branch -M main```, this will make 'main' as default branch
-- ```git remote add origin 'link'```
+- ```git branch -M <default_branch>```, this will make 'main' as default branch
+- ```git remote add origin 'github_link'```
 
 ### Commit & push to a git
 - ```git commit -m 'msg'```  
-- ```git push -u origin <branch_name>```
+- ```git push -u origin <current-work-branch>```
 
 ### Create a new branch
-- ```git branch -M <branch_name>``` 
+- ```git branch -M <name-of-new-branch>``` 
     - this will create a branch locally first
     - remote repo will get updated once pushed
 
@@ -18,7 +20,7 @@
 
 ### Delete a branch
 - note: local branch and remote branch may not be the same
-- checkout to default branch first: ```git checkout main```
+- checkout to default branch first: ```git checkout <default_branch>```
 - check local git branches : ```git branch -a```
 - delete a local branch: ```git branch --delete <branch_name>```
 - delete a remote branch: ```git push origin --delete <branch_name>```
