@@ -43,4 +43,4 @@
 - click ```Create pull request```
 - click ```Merge pull request``` --> ```Confirm merge```
 - message: ```Pull request successfully merged and closed```. At this point, ```Delete branch``` button is visible
-- branch "main" is now updated
+- branch ```main``` is now updated, and an option to delete the duplicate branch will appear
