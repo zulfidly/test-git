@@ -1,12 +1,16 @@
-### initialise a git
+### Initialising git
 - ```git init```
-- ```git branch -M <default_branch>```, this will make 'main' as default branch
-- ```git commit -m 'msg'```
+- ```git branch -M main```, this will make 'main' as default branch
 - ```git remote add origin 'link'```
+
+### Commit & push to a git
+- ```git commit -m 'msg'```  
 - ```git push -u origin <branch_name>```
 
 ### Create a new branch
-- ```git branch -M <branch_name>```
+- ```git branch -M <branch_name>``` 
+    - this will create a branch locally first
+    - remote repo will get updated once pushed
 
 ### Switching branch properly
 - do this before making any edits, git will remember what edits made in which branch and link them together
@@ -31,10 +35,10 @@
 ### note:
 - to create an update, 
 - any edits made in a branch, can only be pushed into the active branch which the work is being done
-- every additional branch will create a pull request on GitHub as "Compare & pull request"
-    - or, we can see the "Open pull request" button
-- click "Open pull request"
-- click "Create pull request"
-- click "Merge pull request" --> "Confirm merge"
-- message: "Pull request successfully merged and closed". At this point, "Delete branch" button is visible
+- every additional branch will create a pull request on GitHub as ```Compare & pull request```
+    - or, we can see the ```Open pull request``` button
+- click ```Open pull request```
+- click ```Create pull request```
+- click ```Merge pull request``` --> ```Confirm merge```
+- message: ```Pull request successfully merged and closed```. At this point, ```Delete branch``` button is visible
 - branch "main" is now updated
