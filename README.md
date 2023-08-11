@@ -17,6 +17,7 @@
 ### Switching branch properly
 - do this before making any edits, git will remember what edits made in which branch and link them together
 - ```git checkout <branch_name>```, preferably without any pending commits
+- this will also switches the version of codes display to the one's in the branch
 
 ### Delete a branch
 - note: local branch and remote branch may not be the same
