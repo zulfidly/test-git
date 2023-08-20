@@ -5,6 +5,12 @@
 - ```git branch -M <default_branch>```; name the default branch
 - ```git remote add origin 'github_link'```
 
+### Check existing git
+- `git remote -v`
+
+### Replace git URL
+- `git remote set-url origin <new-url>`
+
 ### Commit & push to a git
 - ```git commit -m 'msg'```  
 - ```git push -u origin <current-work-branch>```
