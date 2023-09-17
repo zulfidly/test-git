@@ -28,7 +28,7 @@
 ### Delete a branch
 - note: local branch and remote branch may not be the same
 - checkout to default branch first: ```git checkout <default_branch>```
-- check local git branches : ```git branch -a```
+- check all git branches : ```git branch -a```
 - delete a local branch: ```git branch --delete <branch_name>```
 - delete a remote branch: ```git push origin --delete <branch_name>```
 
